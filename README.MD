@@ -8,14 +8,14 @@ A small TCP port scanner written in Python (standard library only), built in thr
 
 | Version | File | Description |
 |---------|------|-------------|
-| 1 | `scanner_version1.py` | First working scanner. Found port 135 on localhost, but took about 2 min 25 s. |
-| 2 | `scanner_version2.py` | Much faster. Found ports 135 and 445 on localhost in 12.46 s. |
-| 3 | `scanner_version3.py` | Multithreaded scanner with banner grabbing and a command-line interface. |
+| 1 | `scanner_v1.py` | First working scanner. Found port 135 on localhost, but took about 2 min 25 s. |
+| 2 | `scanner_v2.py` | Much faster. Found ports 135 and 445 on localhost in 12.46 s. |
+| 3 | `scanner_v3.py` | Multithreaded scanner with banner grabbing and a command-line interface. |
 
 ## Usage (version 3)
 
 ```bash
-python scanner_version3.py <host> [-s START] [-e END] [-t THREADS]
+python scanner_v3.py <host> [-s START] [-e END] [-t THREADS]
 ```
 
 | Option | Description | Default |
